@@ -48,6 +48,9 @@ def process_image(file_name, pbar):
         print(f"\x1b[31mFailed to convert {file_name}. Error: {e}\x1b[0m")
         pbar.update(1)
 
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
 input_files = os.listdir(input_dir)
 
 with tqdm(total=len(input_files)) as pbar:
