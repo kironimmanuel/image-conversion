@@ -13,7 +13,7 @@ It uses the Python Imaging Library (PIL) to handle image processing and threadin
 
 Run `python convert.py` in the root dir
 
-The images to be converted should be placed in the `/assets_raw` directory and the converted images will be saved in the `/assets_converted` directory. The compression quality can be set by changing the value of the `compression_quality` variable and additional extensions can be added to the `image_extensions` list.
+The images to be converted should be placed in the `/images_input` directory and the converted images will be saved in the `/images_converted` directory. The compression quality can be set by changing the value of the `compression_quality` variable and additional extensions can be added to the `image_extensions` list.
 
 ### WIP
 
